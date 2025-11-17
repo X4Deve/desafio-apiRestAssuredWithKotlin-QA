@@ -1,0 +1,32 @@
+<div>POST to https://serverest.dev/produtos</div>
+
+<h4>Body</h4>
+<div>
+    <pre class="preformated-text">
+    {
+    &quot;nome&quot;: &quot;Durable Bronze Plate&quot;,
+    &quot;preco&quot;: 955,
+    &quot;descricao&quot;: &quot;Awesome Durable Bronze Plate&quot;,
+    &quot;quantidade&quot;: 8934
+}
+    </pre>
+</div>
+
+<h4>Headers</h4>
+<div>
+        <div>Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZhZ25lci5uYXNjaW1lbnRvQHFhLmNvbSIsInBhc3N3b3JkIjoiMTIzNDU2Nzg5IiwiaWF0IjoxNzYzMzk1NDU0LCJleHAiOjE3NjMzOTYwNTR9.knKaOiXZRl8cN4c-SFDQqHPLa_O-U1DVf9FJAKwXASo</div>
+        <div>Accept: */*</div>
+        <div>Content-Type: application/json</div>
+</div>
+
+
+
+<h4>Curl</h4>
+<div>
+curl -v -X POST &#39;https://serverest.dev/produtos&#39; -H &#39;Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZhZ25lci5uYXNjaW1lbnRvQHFhLmNvbSIsInBhc3N3b3JkIjoiMTIzNDU2Nzg5IiwiaWF0IjoxNzYzMzk1NDU0LCJleHAiOjE3NjMzOTYwNTR9.knKaOiXZRl8cN4c-SFDQqHPLa_O-U1DVf9FJAKwXASo&#39; -H &#39;Accept: */*&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;nome&quot;: &quot;Durable Bronze Plate&quot;,
+    &quot;preco&quot;: 955,
+    &quot;descricao&quot;: &quot;Awesome Durable Bronze Plate&quot;,
+    &quot;quantidade&quot;: 8934
+}&#39;
+</div>
