@@ -59,3 +59,4 @@ class UserTests : Setup() {
         assertEquals("Registro alterado com sucesso", response.jsonPath().get("message"))
     }
 }
+
